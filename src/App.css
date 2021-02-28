@@ -17,6 +17,7 @@
 
 .add-note-button {
   margin: 0 1rem 0 1rem;
+  height: 90%;
 }
 
 .notes-container {
@@ -30,7 +31,6 @@
   background: #eee;
   box-shadow: #999 1px 1px 3px;
   margin: 1rem 0;
-
   min-height: 30rem;
   max-height: 4rem;
   overflow: auto;
@@ -39,6 +39,7 @@
 
 .note-container-header {
   display: flex;
+  padding: 0.25rem;
   flex-direction: row;
   justify-content: flex-end;
   background-color: #d46e58;

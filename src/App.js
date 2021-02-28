@@ -102,7 +102,7 @@ function App() {
               className="add-note-button"
               onClick={toggle}
             >
-              Add Notes
+              Add Note
             </Button>
           </div>
           <div className="notes-container">{Notes}</div>
