@@ -82,7 +82,7 @@ function App() {
       note: state.newNote,
       createdAt: `Created At: ${new Date().toLocaleString('en-US')}`,
     }
-    console.log(newNote)
+
     setState((ps) => ({ ...ps, notes: [...ps.notes, newNote] }))
   }
 
