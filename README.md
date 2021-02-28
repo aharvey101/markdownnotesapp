@@ -1,9 +1,7 @@
-## TO DO list
+## React Markdown Notes Taker
 
-- [x] Create Basic React App
-- [ ] Delete crap that is not needed
-- [ ] Install Reactstrap
-- [ ] Build out sudo code for all components
-- [ ] Figure out how to implement react markdown parser
-- [ ] Build out rest
-- [ ] Push code
+This is a simple react app that takes markdown text and makes notes out of it displayed like sticky notes
+
+To view the app in action, click here:
+
+[Vew On Netlify](https://viewOnNetlify.com)
