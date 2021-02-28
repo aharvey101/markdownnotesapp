@@ -13,14 +13,6 @@ import './App.css'
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
 
-//Modal Imports
-
-// Sudo Code:
-
-// App is contained in a container from reactstrap
-// Create array of notes
-// Make notes modal update state
-
 const Note = ({ id, note, createdAt = 'today', deleteNote }) => (
   <div className="note-container" key={id}>
     {/* Header */}
